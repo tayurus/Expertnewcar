@@ -2,7 +2,14 @@
     outline: none;
     padding: 10px 22px;
     text-align: center;
-    display: block;
-    margin: 0px auto;
-    width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+.button_offer{
+    border-radius: 20px;
+    background: linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 14px 20px;
 }
