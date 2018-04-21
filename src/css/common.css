@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.site-name{
+    display: flex;
+    align-items: flex-end;
+}
+
+.site-name > h2{
+    color: #ffffff;
+    font-size: 30px;
+}

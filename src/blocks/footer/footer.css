@@ -1,0 +1,70 @@
+@media (max-width:1366px), (max-device-width:1366px) {
+    .footer > .container{
+        max-width: 100% !important;
+    }
+}
+
+.footer__left{
+    background: linear-gradient(to top, #0e1853 0%, #000735 100%);
+    border-top-right-radius: 100%;
+    height: 142px;
+    padding: 40px 45px 35px 98px;
+}
+
+
+.footer__right{
+    border-top: 1px solid #7c7c7c;
+    padding-top: 44px;
+}
+
+.footer__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.message-icon{
+    position: relative;
+    padding-left: 30px;
+    margin-right: 70px;
+}
+
+@media (max-width:865px),(max-device-width:865px) {
+    .message-icon{
+        margin-right: 0px;
+    }
+
+    .footer__links{
+        justify-content: space-around;
+    }
+}
+
+.phone-icon{
+    position: relative;
+    padding-left: 25px;
+}
+
+.message-icon::before{
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    left: 0px;
+    top: 6px;
+    background: url("img/message.png") no-repeat center / cover;
+}
+
+.phone-icon::before{
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 0px;
+    top: 6px;
+    background: url("img/phone.png") no-repeat center / cover;
+}
+
+.footer__label{
+    color: #000735;
+    font-size: 14px;
+}
