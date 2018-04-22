@@ -1,0 +1,87 @@
+
+.about__carousel-title{
+    color: #222328;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about__carousel-title > span{
+    color: #0e1853;
+    font-family: "Gotham Pro - Black";
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.about__carousel-item{
+    max-width: 561px !important;
+}
+
+.about__img{
+    max-width: 531px !important;
+    max-height: 258px !important;
+    margin-bottom: 1rem;
+}
+
+
+.about__price-start, .about__price-end{
+    color: #222328;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.about__price-start{
+    margin-right: 45px;
+}
+
+.about__price-start  .value{
+    margin-right: 5px;
+    color: #0e1853;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about__price-end .value{
+    color: #0e1853;
+    font-family: "Gotham Pro - Black";
+    font-size: 35px;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.offer__text{
+    color: #222328;
+    font-family: "PT Serif";
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.about__carousel .owl-nav{
+    position: absolute !important;
+    bottom: 0% !important;
+}
+
+.about__carousel .owl-prev{
+    width: 40px !important;
+    height: 40px !important;
+    background: url('img/carousel-prev.png') no-repeat center / contain !important;
+    font-size: 0px !important;
+    outline: none;
+}
+.about__carousel .owl-next{
+    width: 40px !important;
+    height: 40px !important;
+    background: url('img/carousel-next.png') no-repeat center / contain !important;
+    font-size: 0px !important;
+    outline: none;
+}
+
+@media (max-width:992px),(max-device-width:992px) {
+    .about__carousel .owl-nav{
+        position: static !important;
+    }
+
+    .about__carousel-title span{
+        font-size: 20px;
+    }
+}

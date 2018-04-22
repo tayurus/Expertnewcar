@@ -16,3 +16,10 @@ body{
     color: #ffffff;
     font-size: 30px;
 }
+
+.line{
+    width: 2px;
+    height: 100px;
+    background-image: linear-gradient(to top, #ff1949 0%, #ffa10e 100%);
+    margin: 0px auto;
+}
