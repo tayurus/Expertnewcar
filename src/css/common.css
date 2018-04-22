@@ -1,10 +1,46 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("fonts/GothaProReg.otf");
+}
+
+@font-face {
+  font-family: "Gotham Pro - Black";
+  src: url("fonts/GothaProBla.otf");
+}
+
+
 *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0px;
+    font-family: "Gotham Pro";
     padding: 0px;
+    background: url("img/header-background.png") no-repeat right top/63vw 800px;
+
+}
+
+
+
+@media (max-width:1500px),(max-device-width:1500px) {
+    body{
+        background: url("img/header-background.png") no-repeat right top/ 68vw 800px
+    }
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    body{
+        background: none;
+    }
+}
+
+.text-black{
+    color: #000 !important;
+}
+
+.text-white{
+    color: #fff !important;
 }
 
 .site-name{
@@ -15,6 +51,9 @@ body{
 .site-name > h2{
     color: #ffffff;
     font-size: 30px;
+    position: relative;
+    top: 17px;
+    left: 8px;
 }
 
 .line{

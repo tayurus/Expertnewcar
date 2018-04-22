@@ -13,3 +13,44 @@
     font-size: 14px;
     padding: 14px 20px;
 }
+
+.button_call{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px;
+    background: linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%);
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+}
+
+.button_call span{
+    border-radius: 20px;
+    top: 2px;
+    left: 4px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    background-color: #0d1650;
+    height: 90%;
+    text-align: center;
+}
+
+.button_call span::after{
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    content: "";
+    width: 6px;
+    height: 10px;
+    background: url("img/arrow-left.png") no-repeat center / contain;
+}
+
+.button_call-big{
+    width: 270px;
+    margin-left: auto;
+    display: block;
+}
