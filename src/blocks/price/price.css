@@ -1,0 +1,59 @@
+.price{
+  width: 270px;
+  min-width: 270px;
+  border-radius: 25px;
+  background: linear-gradient(0deg, #000735, #0e1853);
+  padding: 30px;
+  margin: 11px;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.price__title{
+  text-align: center;
+  font-size: 35px;
+  color: #222328;
+  font-family: "Gotham Pro - Black";
+  margin-bottom: 30px;
+}
+.price__name{
+  font-family: "Gotham Pro - Black";
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.price__description{
+  font-size: 11px;
+  text-align: left;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.price__amount{
+  font-family: "Gotham Pro - Black";
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 20px;
+  background: linear-gradient(-45deg, #ff1949, #ffa10e);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.price__val{
+  font-size: 40px;
+}
+.price__guarantee{
+  color: #222328;
+  font-family: "Gotham Pro - Black";
+  font-size: 25px;
+  text-align: center;
+}
+.price__guarantee-percent{
+  font-size: 65px;
+  background: linear-gradient(-45deg, #ff1949, #ffa10e);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.price__guarantee-tilda{
+  padding: 0 10px;
+  font-size: 70px;
+}

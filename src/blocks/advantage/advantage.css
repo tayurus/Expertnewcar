@@ -1,0 +1,78 @@
+.advantage{
+  width: 170px;
+  min-width: 170px;
+  border-radius: 25px;
+  background: linear-gradient(0deg, #000735, #0e1853);
+  padding: 34px 20px 42px 20px;
+  margin: 11px;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.advantage__title{
+  font-family: "Gotham Pro - Black";
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 55px;
+  background: linear-gradient(-45deg, #ff1949, #ffa10e);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.advantage__description{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+.advantage__trust{
+  font-family: "Gotham Pro - Black";
+  color: #222328;
+  font-size: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.advantage__trust::before{
+  content: "~";
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40px;
+}
+
+@media (max-width: 767px), (max-device-width: 767px)
+{
+  .advantage__trust {
+    padding: 0;
+  }
+  .advantage__trust::before {
+      display: none;
+  }
+}
+
+@media (max-width: 430px), (max-device-width: 430px)
+{
+  .advantage{
+    width: 120px;
+    min-width: 120px;
+    border-radius: 15px;
+    padding: 24px 10px 32px 10px;
+    margin: 8px;
+  }
+  .advantage__title{
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+  .advantage__description{
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

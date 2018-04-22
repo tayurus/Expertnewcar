@@ -1,3 +1,7 @@
+.footer{
+    position: relative;
+}
+
 @media (max-width:1366px), (max-device-width:1366px) {
     .footer > .container{
         max-width: 100% !important;
@@ -86,4 +90,13 @@
 .footer__label{
     color: #000735;
     font-size: 14px;
+}
+
+.footer__bottom{
+    height: 142px;
+    position: absolute;
+    bottom: 0%;
+    width: calc(50% - 480px);
+    left: 0%;
+    background: linear-gradient(to top,#0e1853 0,#000735 100%);
 }

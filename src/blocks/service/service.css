@@ -1,0 +1,59 @@
+.service__container{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service{
+  width: 252px;
+  margin: 24px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.service__img{
+  margin: 0 auto;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.service__title{
+  color: #000735;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px auto;
+}
+
+.service__description{
+  color: #222328;
+  font-size: 12px;
+}
+
+.service__img_paint{
+  background: url(img/service__paint.png) no-repeat center, linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%), linear-gradient(-45deg, #000735 0%, #0e1853 100%);
+}
+
+.service__img_used{
+  background: url(img/service__used.png) no-repeat center, linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%), linear-gradient(-45deg, #000735 0%, #0e1853 100%);
+}
+
+.service__img_contract{
+  background: url(img/service__contract.png) no-repeat center, linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%), linear-gradient(-45deg, #000735 0%, #0e1853 100%);
+}
+
+.service__img_equipment{
+  background: url(img/service__equipment.png) no-repeat center, linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%), linear-gradient(-45deg, #000735 0%, #0e1853 100%);
+}
+
+.service__img_expert{
+  background: url(img/service__expert.png) no-repeat center, linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%), linear-gradient(-45deg, #000735 0%, #0e1853 100%);
+}
+
+.service__img_bargain{
+  background: url(img/service__bargain.png) no-repeat center, linear-gradient(-45deg, #ff1949 0%, #ffa10e 100%), linear-gradient(-45deg, #000735 0%, #0e1853 100%);
+}
