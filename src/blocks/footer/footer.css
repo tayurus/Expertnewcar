@@ -12,22 +12,22 @@
 }
 
 .footer__left{
-    width: 400px;
     background: linear-gradient(to top, #0e1853 0%, #000735 100%);
     border-radius: 0 150px 0 0 / 0 calc(100% - 10px) 0 0;
-    height: 142px;
+    height: 100%;
+    min-height: 146px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-@media (max-width:930px),(max-device-width:930px) {
-    .footer__left{
-        width: auto;
+@media (max-width:1200px),(max-device-width:1200px) {
+    .footer__bottom{
+        display: none;
     }
 }
 
-@media (max-width:767px),(max-device-width:767px) {
+@media (max-width:992px),(max-device-width:992px) {
     .footer__left{
         border-radius: 0px;
         width: 100%;
@@ -43,13 +43,16 @@
 .footer__links{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.footer__links *:not(:last-child){
+    margin:0px 10px;
 }
 
 .message-icon{
     position: relative;
     padding-left: 30px;
-    margin-right: 70px;
 }
 
 @media (max-width:865px),(max-device-width:865px) {
@@ -60,6 +63,7 @@
     .footer__links{
         justify-content: space-around;
     }
+
 }
 
 .phone-icon{
@@ -93,7 +97,7 @@
 }
 
 .footer__bottom{
-    height: 142px;
+    height: 146px;
     position: absolute;
     bottom: 0%;
     width: calc(50% - 480px);

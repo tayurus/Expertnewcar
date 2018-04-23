@@ -2,5 +2,5 @@
 form.popup
   .popup__close
   label.popup__label() Отправьте сообщение и мы перезвоним
-  input.popup__input
-  submit.button.button_filled.popup__submit Отправить
+  input.popup__input(type="tel", required, placeholder="Телефон", pattern="[+]?[0-9]{5,12}")
+  button.button.button_filled.popup__submit Отправить

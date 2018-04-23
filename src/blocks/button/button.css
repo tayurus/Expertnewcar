@@ -28,12 +28,12 @@
 .button_call span{
     border-radius: 20px;
     top: 2px;
-    left: 2%;
+    left: 1%;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 96%;
+    width: 98%;
     background-color: #0d1650;
     height: 90%;
     text-align: center;

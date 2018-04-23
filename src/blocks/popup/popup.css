@@ -1,4 +1,5 @@
 .popup__background{
+  display: none;
   background-color: #000;
   opacity: 0.7;
   position: fixed;
@@ -10,6 +11,7 @@
 }
 
 .popup{
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -52,8 +54,21 @@
   text-align: center;
 }
 
-.popup__submit{
-  display: block;
-  width: 100%;
+.popup__input{
+  border: none;
+  color: #222328;
+  font-size: 12px;
   height: 40px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.popup__submit{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  line-height: 12px;
 }

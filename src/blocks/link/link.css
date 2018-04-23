@@ -20,3 +20,8 @@
     top: -7px;
     background: url("img/pdf.png") no-repeat center / contain;
 }
+
+.link_phone{
+    font-family: "Gotham Pro - Black";
+    font-size: 19px;
+}

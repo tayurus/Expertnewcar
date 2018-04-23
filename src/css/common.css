@@ -62,3 +62,27 @@ body{
     background-image: linear-gradient(to top, #ff1949 0%, #ffa10e 100%);
     margin: 35px auto;
 }
+
+.bg-block{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.bg-block_yellow{
+  height: 40VW;
+  transform: translateY(-24vw);
+  background: url(img/block_yellow.png) no-repeat right/ CONTAIN;
+}
+
+.bg-block_blue{
+  height: 45VW;
+  transform: translateY(10vw);
+  background: url(img/block_blue.png) no-repeat left/ CONTAIN;
+}
+
+@media (max-width:780px),(max-device-width:780px) {
+    .bg-block{
+        display: none;
+    }
+}
